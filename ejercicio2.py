@@ -6,7 +6,7 @@ print("===================================")
 print("Bienvenido al sistema de tienda ")
 print("===================================")
 
-
+# Se le piden los datos respectivos al usuario
 NameProduct = input("Nombre del producto: ")
 print("===================================")
 cantidad = int(input("Cantidad del producto: "))
