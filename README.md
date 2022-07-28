@@ -4,7 +4,7 @@
 
 Aprendiendo a programar en python
 
-#Ejercicios Propuestos
+Ejercicios Propuestos
 
 1. Un programa que pida el código de área y número de teléfono y luego imprima en pantalla 
 el número completo 
