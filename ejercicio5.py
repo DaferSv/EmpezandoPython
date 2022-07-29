@@ -4,6 +4,7 @@ print("|    Programa para saber mis notas     |")
 print("========================================")
 
 print("")
+#Procesos para sacar las notas de los estudiantes ``    
 nombre  = input("Digite su nombre: ")
 print("========================================")
 lab1    = float(input("Digite la nota del primer laboratorio: "))
@@ -13,10 +14,6 @@ print("========================================")
 parcial = float(input("Digite la nota del parcial: "))
 print("========================================")
 
-lab1    = lab1*0.3
-lab2    = lab2*0.3
-parcial = parcial*0.4
-
-notaTotal = lab1+lab2+parcial
+notaTotal = (lab1*0.3)+(lab2*0.3)+(parcial*0.4)
 
 print("La nota total del estudiante "+nombre+" es: ",notaTotal)

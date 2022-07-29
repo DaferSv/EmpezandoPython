@@ -2,17 +2,17 @@
 from unicodedata import name
 
 
-print("===================================")
-print("Bienvenido al sistema de tienda ")
-print("===================================")
+print("========================================")
+print("Bienvenido al sistema de tienda Juancho")
+print("========================================")
 
 # Se le piden los datos respectivos al usuario
 NameProduct = input("Nombre del producto: ")
-print("===================================")
+print("========================================")
 cantidad = int(input("Cantidad del producto: "))
-print("===================================")
+print("========================================")
 precio = float(input("Precio del producto: "))
-print("===================================")
+print("========================================")
 Total = cantidad*precio
 print("El total de su compra es: $",Total)
 
