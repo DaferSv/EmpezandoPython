@@ -1,3 +1,4 @@
+#Definir el dictador de la cadena
 def creador_dict(cadena):
   '''Recibe una cadena de caracteres y regresa un diccionario con las palabras (keys) y conteo (value)'''
   list_1= cadena.split()
@@ -11,13 +12,13 @@ def creador_dict(cadena):
 
 def contador_dict(dictionario):
   '''Recibe un diccionario y regresa una tupla: la palabra mas repetida y cuantas veces aparece'''
-  palabra_frecuente= ''
-  cantidad=0
+  frase_rep= ''
+  cant=0
   for keys,values in dictionario.items():
-    if values > cantidad:
-      cantidad= values
-      palabra_frecuente= keys
-  return palabra_frecuente,cantidad
+    if values > cant:
+      cant = values
+      frase_rep= keys
+  return frase_rep,cant
 entrada=input('Ingrese su cadena de caracteres: ')
 print(creador_dict(entrada))
 print(contador_dict(creador_dict(entrada)))
