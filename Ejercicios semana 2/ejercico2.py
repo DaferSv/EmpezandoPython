@@ -1,3 +1,5 @@
+'''Escribir una función que reciba una frase y devuelva un diccionario con las 
+palabras que contiene y su longitud. '''
 #Definir el dictador de la cadena
 def creador_dict(cadena):
   '''Recibe una cadena de caracteres y regresa un diccionario con las palabras (keys) y conteo (value)'''

@@ -1,3 +1,5 @@
+'''Escribir una función que convierta un número decimal en hexadecimal y otra que 
+convierta un número hexadecimal en decimal.                                                                                           '''
 # Función que regresa el verdadero valor hexadecimal.
 # Por ejemplo, si recibe un 15 devuelve f, y si recibe un número menor a 10, devuelve el número sin modificarlo
 def obtener_caracter_hexadecimal(valor):
