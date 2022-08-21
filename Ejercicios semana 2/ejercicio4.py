@@ -5,7 +5,7 @@ imprimir en pantalla '''
 
 frutas = ['papaya', 'manzana', 'guineo', 'fresa']
 fruta = input("Digite el nombre de una fruta: ")
-
+print (fruta)
 frutas.append(fruta)
 
 print("Frutas: ", frutas)
